@@ -1,0 +1,9 @@
+[package]
+name = "tectonic_driver"
+version = "0.1.0"
+authors = ["Joe Neeman <joeneeman@gmail.com>"]
+
+[dependencies]
+aho-corasick = "0.6"
+clap = "2.29"
+tectonic = { path = "../tectonic" }
